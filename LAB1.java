@@ -17,7 +17,7 @@ public class Main
   System.out.println("Please enter the second number:");
   double second=input.nextDouble();
 
-  System.out.println("Please enter the expression type:");
+  System.out.println("Please enter the expression type(like *,+,-, or /):");
   String expression=input.next();
   System.out.println("The two number are: "+first +" "+ second);
   if(expression.equalsIgnoreCase("+"))
